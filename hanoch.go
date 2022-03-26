@@ -15,6 +15,11 @@ func CalPoints(ops []string) int {
 	return calPoints(ops)
 }
 
+//https://leetcode-cn.com/problems/3sum/
+func ThreeSum(nums []int) [][]int {
+	return threeSum(nums)
+}
+
 type ListNode struct {
 	Val  int
 	Next *ListNode
