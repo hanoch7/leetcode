@@ -10,6 +10,11 @@ func AddTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	return addTwoNumbers(l1, l2)
 }
 
+//https://leetcode-cn.com/problems/baseball-game/
+func CalPoints(ops []string) int {
+	return calPoints(ops)
+}
+
 type ListNode struct {
 	Val  int
 	Next *ListNode
