@@ -25,6 +25,11 @@ func GenerateParenthesis(n int) []string {
 	return generateParenthesis(n)
 }
 
+//https://leetcode-cn.com/problems/reverse-nodes-in-k-group/
+func ReverseKGroup(head *ListNode, k int) *ListNode {
+	return reverseKGroup(head, k)
+}
+
 type ListNode struct {
 	Val  int
 	Next *ListNode
