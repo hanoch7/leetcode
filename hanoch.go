@@ -20,6 +20,11 @@ func ThreeSum(nums []int) [][]int {
 	return threeSum(nums)
 }
 
+//https://leetcode-cn.com/problems/generate-parentheses/
+func GenerateParenthesis(n int) []string {
+	return generateParenthesis(n)
+}
+
 type ListNode struct {
 	Val  int
 	Next *ListNode
