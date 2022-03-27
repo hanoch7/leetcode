@@ -45,6 +45,11 @@ func Jump(nums []int) int {
 	return jump(nums)
 }
 
+//https://leetcode-cn.com/problems/permutations/
+func Permute(nums []int) [][]int {
+	return permute(nums)
+}
+
 type ListNode struct {
 	Val  int
 	Next *ListNode
