@@ -21,17 +21,3 @@ func trap(height []int) int {
 	}
 	return ans
 }
-
-func max(x int, y int) int {
-	if x > y {
-		return x
-	}
-	return y
-}
-
-func min(x int, y int) int {
-	if x < y {
-		return x
-	}
-	return y
-}
