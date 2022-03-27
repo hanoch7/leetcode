@@ -30,6 +30,11 @@ func ReverseKGroup(head *ListNode, k int) *ListNode {
 	return reverseKGroup(head, k)
 }
 
+//https://leetcode-cn.com/problems/find-missing-observations/
+func MissingRolls(rolls []int, mean int, n int) []int {
+	return missingRolls(rolls, mean, n)
+}
+
 type ListNode struct {
 	Val  int
 	Next *ListNode
