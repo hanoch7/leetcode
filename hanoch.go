@@ -40,6 +40,11 @@ func Trap(height []int) int {
 	return trap(height)
 }
 
+//https://leetcode-cn.com/problems/jump-game-ii/
+func Jump(nums []int) int {
+	return jump(nums)
+}
+
 type ListNode struct {
 	Val  int
 	Next *ListNode
