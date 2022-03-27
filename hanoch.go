@@ -35,6 +35,11 @@ func MissingRolls(rolls []int, mean int, n int) []int {
 	return missingRolls(rolls, mean, n)
 }
 
+//https://leetcode-cn.com/problems/trapping-rain-water/
+func Trap(height []int) int {
+	return trap(height)
+}
+
 type ListNode struct {
 	Val  int
 	Next *ListNode
