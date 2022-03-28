@@ -50,6 +50,11 @@ func Permute(nums []int) [][]int {
 	return permute(nums)
 }
 
+//https://leetcode-cn.com/problems/binary-number-with-alternating-bits/
+func HasAlternatingBits(n int) bool {
+	return hasAlternatingBits(n)
+}
+
 type ListNode struct {
 	Val  int
 	Next *ListNode
