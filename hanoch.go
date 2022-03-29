@@ -55,6 +55,11 @@ func HasAlternatingBits(n int) bool {
 	return hasAlternatingBits(n)
 }
 
+//https://leetcode-cn.com/problems/maximize-the-confusion-of-an-exam/
+func MaxConsecutiveAnswers(answerKey string, k int) int {
+	return maxConsecutiveAnswers(answerKey, k)
+}
+
 type ListNode struct {
 	Val  int
 	Next *ListNode
