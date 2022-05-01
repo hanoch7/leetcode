@@ -60,9 +60,20 @@ func MaxConsecutiveAnswers(answerKey string, k int) int {
 	return maxConsecutiveAnswers(answerKey, k)
 }
 
+//https://leetcode-cn.com/problems/all-elements-in-two-binary-search-trees/
+func GetAllElements(root1 *TreeNode, root2 *TreeNode) []int {
+	return getAllElements(root1, root2)
+}
+
 type ListNode struct {
 	Val  int
 	Next *ListNode
+}
+
+type TreeNode struct {
+	Val   int
+	Left  *TreeNode
+	Right *TreeNode
 }
 
 func max(x int, y int) int {
