@@ -65,6 +65,11 @@ func GetAllElements(root1 *TreeNode, root2 *TreeNode) []int {
 	return getAllElements(root1, root2)
 }
 
+//https://leetcode-cn.com/problems/subarray-product-less-than-k/
+func NumSubarrayProductLessThanK(nums []int, k int) int {
+	return numSubarrayProductLessThanK(nums, k)
+}
+
 type ListNode struct {
 	Val  int
 	Next *ListNode
