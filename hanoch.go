@@ -70,6 +70,11 @@ func NumSubarrayProductLessThanK(nums []int, k int) int {
 	return numSubarrayProductLessThanK(nums, k)
 }
 
+//https://leetcode.cn/problems/di-string-match/
+func DiStringMatch(s string) []int {
+	return diStringMatch(s)
+}
+
 type ListNode struct {
 	Val  int
 	Next *ListNode
