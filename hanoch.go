@@ -75,6 +75,11 @@ func DiStringMatch(s string) []int {
 	return diStringMatch(s)
 }
 
+//https://leetcode.cn/problems/height-checker/
+func HeightChecker(heights []int) int {
+	return heightChecker(heights)
+}
+
 type ListNode struct {
 	Val  int
 	Next *ListNode
