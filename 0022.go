@@ -21,5 +21,4 @@ func getParenthesis(s string, left_count int, right_count int, n int) {
 	}
 	getParenthesis(s+"(", left_count+1, right_count, n)
 	getParenthesis(s+")", left_count, right_count+1, n)
-	return
 }
