@@ -80,6 +80,11 @@ func HeightChecker(heights []int) int {
 	return heightChecker(heights)
 }
 
+//https://leetcode.cn/problems/jump-game/
+func CanJump(nums []int) bool {
+	return canJump(nums)
+}
+
 type ListNode struct {
 	Val  int
 	Next *ListNode
