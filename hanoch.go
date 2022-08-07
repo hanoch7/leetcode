@@ -90,6 +90,10 @@ func DeleteDuplicates(head *ListNode) *ListNode {
 	return deleteDuplicates(head)
 }
 
+func ClimbStairs(n int) int {
+	return climbStairs(n)
+}
+
 type ListNode struct {
 	Val  int
 	Next *ListNode
