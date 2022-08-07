@@ -110,6 +110,11 @@ func MergeKLists(lists []*ListNode) *ListNode {
 	return mergeKLists(lists)
 }
 
+//https://leetcode.cn/problems/majority-element/
+func MajorityElement(nums []int) int {
+	return majorityElement(nums)
+}
+
 type ListNode struct {
 	Val  int
 	Next *ListNode
