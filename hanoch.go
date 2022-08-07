@@ -105,6 +105,11 @@ func Fib(n int) int {
 	return fib(n)
 }
 
+//https://leetcode.cn/problems/merge-k-sorted-lists/
+func MergeKLists(lists []*ListNode) *ListNode {
+	return mergeKLists(lists)
+}
+
 type ListNode struct {
 	Val  int
 	Next *ListNode
