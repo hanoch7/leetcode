@@ -115,6 +115,11 @@ func MajorityElement(nums []int) int {
 	return majorityElement(nums)
 }
 
+//https://leetcode.cn/problems/search-a-2d-matrix-ii/
+func SearchMatrix(matrix [][]int, target int) bool {
+	return searchMatrix(matrix, target)
+}
+
 type ListNode struct {
 	Val  int
 	Next *ListNode
