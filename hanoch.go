@@ -100,6 +100,11 @@ func HasPathSum(root *TreeNode, targetSum int) bool {
 	return hasPathSum(root, targetSum)
 }
 
+//https://leetcode.cn/problems/fibonacci-number/
+func Fib(n int) int {
+	return fib(n)
+}
+
 type ListNode struct {
 	Val  int
 	Next *ListNode
