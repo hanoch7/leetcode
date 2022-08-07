@@ -95,6 +95,11 @@ func ClimbStairs(n int) int {
 	return climbStairs(n)
 }
 
+//https://leetcode.cn/problems/path-sum/
+func HasPathSum(root *TreeNode, targetSum int) bool {
+	return hasPathSum(root, targetSum)
+}
+
 type ListNode struct {
 	Val  int
 	Next *ListNode
