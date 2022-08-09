@@ -125,6 +125,11 @@ func DetectCycle(head *ListNode) *ListNode {
 	return detectCycle(head)
 }
 
+//https://leetcode.cn/problems/house-robber/
+func Rob(nums []int) int {
+	return rob(nums)
+}
+
 type ListNode struct {
 	Val  int
 	Next *ListNode
