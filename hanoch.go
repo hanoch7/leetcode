@@ -120,6 +120,11 @@ func SearchMatrix(matrix [][]int, target int) bool {
 	return searchMatrix(matrix, target)
 }
 
+//https://leetcode.cn/problems/linked-list-cycle-ii/
+func DetectCycle(head *ListNode) *ListNode {
+	return detectCycle(head)
+}
+
 type ListNode struct {
 	Val  int
 	Next *ListNode
