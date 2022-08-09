@@ -135,6 +135,11 @@ func Rob2(nums []int) int {
 	return rob2(nums)
 }
 
+//https://leetcode.cn/problems/house-robber-iii/
+func Rob3(root *TreeNode) int {
+	return rob3(root)
+}
+
 type ListNode struct {
 	Val  int
 	Next *ListNode
