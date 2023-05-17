@@ -140,6 +140,11 @@ func Rob3(root *TreeNode) int {
 	return rob3(root)
 }
 
+// https://leetcode.cn/problems/binary-tree-preorder-traversal/
+func PreorderTraversal(root *TreeNode) []int {
+	return preorderTraversal(root)
+}
+
 type ListNode struct {
 	Val  int
 	Next *ListNode
